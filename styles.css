@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   line-height: 1.5;
 
   --primary-text-color: #181820;
