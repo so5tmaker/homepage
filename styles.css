@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,regular,italic,700");
+
 /* General styles */
 * {
   margin: 0;
@@ -6,15 +8,15 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto;
   line-height: 1.5;
 
   --primary-text-color: #181820;
   --secondary-text-color: #5c5c62;
   --durability-text-color: #6a737d9c;
   --icon-color: #6a737d;
-  --border-color: #ff9a0045;
-  --text-decoration-color: #ff9a00;
+  --border-color: #00acff45;
+  --text-decoration-color: #00aeff;
 }
 
 .container {
@@ -33,6 +35,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.fb20 {
+  flex-basis: 20%;
+  overflow-wrap: break-word;
+}
+
+.fb80 {
+  flex-basis: 80%;
+  margin-bottom: 20px;
 }
 
 .resume {
@@ -128,7 +140,7 @@ body {
   width: 100px;
   height: 100px;
   object-fit: cover;
-  border: 3px solid;
+  border: 1px solid;
   border-color: var(--text-decoration-color);
 }
 
@@ -194,7 +206,6 @@ body {
   text-decoration-color: var(--text-decoration-color);
   text-decoration-line: underline;
   text-align: left;
-  margin-bottom: 20px;
 }
 
 .experiences__company-project {
@@ -217,7 +228,6 @@ body {
 
 .experiences__company-project-responsibilities {
   color: var(--secondary-text-color);
-  padding-left: 20px;
 }
 
 .additional-info {
